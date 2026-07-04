@@ -8,7 +8,7 @@
 # ==========================================
 # CONSTANTS
 # ==========================================
-OPPERATION_LIST = ['+', '-', '*', '/']
+OPERATION_LIST = ['+', '-', '*', '/']
 
 
 # ==========================================
@@ -25,7 +25,7 @@ def is_number(value):
 
 def is_operation(value):
     valid = True
-    if not value in OPPERATION_LIST:
+    if not value in OPERATION_LIST:
         valid = False
     return valid
 
@@ -44,7 +44,7 @@ def valid_equation():
 
         if position % 2 == 0:
             if not is_number(current_segment):
-                print(f'Invalid equasion sequence.\nError at: {current_segment}')
+                print(f'Invalid equation sequence.\nError at: {current_segment}')
                 return None
             else:
                 current_segment = float(current_segment)
@@ -52,7 +52,7 @@ def valid_equation():
 
         elif position % 2 != 0:
             if not is_operation(current_segment):
-                print(f'Invalid equasion sequence.\nError at: {current_segment}')
+                print(f'Invalid equation sequence.\nError at: {current_segment}')
                 return None
             else:
                 equation.append(current_segment)
@@ -77,8 +77,7 @@ def execution():
 
     for position in range(1, len(equation), 2):
         current_position = equation[position]
-        if position < equation[len(equation) - 1]:
-            next_position = equation[position + 1]
+        next_position = equation[position + 1]
     
         if current_position == '+':
             result = result + next_position
@@ -100,4 +99,3 @@ def main():
 # MAIN PROGRAM
 # ==========================================
 main()
-
