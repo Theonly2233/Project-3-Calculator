@@ -24,3 +24,10 @@ V2
 - Added support for power, modulo, and floor division operations.
 - converted operation list to a dictionary for better organization and execution.
 - Added order of operations to the execution function.
+V3
+
+- Added parentheses support.
+- Added imported regex_split to split at opperations.
+- Used .strip() and .replace() to remove spaces.
+- Made execution() accept lists.
+- Added a loop to allow for multiple equations each session and an exit feture.
