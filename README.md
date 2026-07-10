@@ -19,11 +19,13 @@ I created this project to practice:
 V1
 
 - A simple calculator that supports '-, +, *, /' and long equations.
+
 V2
 
 - Added support for power, modulo, and floor division operations.
 - converted operation list to a dictionary for better organization and execution.
 - Added order of operations to the execution function.
+
 V3
 
 - Added parentheses support.
