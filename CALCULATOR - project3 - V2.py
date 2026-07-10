@@ -1,8 +1,10 @@
 # ==========================================
 # PROJECT 3 - CALCULATOR
 # ==========================================
-# Version 1
-# - Initial version of the project.
+# Version 2
+# - Added support for power, modulo, and floor division operations.
+# - converted operation list to a dictionary for better organization and execution.
+# - Added order of operations to the execution function.
 # ==========================================
 
 # ==========================================
