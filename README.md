@@ -33,3 +33,12 @@ V3
 - Used .strip() and .replace() to remove spaces.
 - Made execution() accept lists.
 - Added a loop to allow for multiple equations each session and an exit feture.
+
+V4
+
+- Removed nested functions to improve readability.
+- Created a calculate function to reduce WET code.
+- Fixed stacks longer than 2 raising an error.
+- Implemented the prompt() function into the valid_equation() function.
+- Catches and returns a costom message when a ZeroDivisionError occures.
+- Recognizes numbers adjacent to parentheses as multiplication.
