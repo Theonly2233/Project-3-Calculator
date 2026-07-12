@@ -42,3 +42,9 @@ V4
 - Implemented the prompt() function into the valid_equation() function.
 - Catches and returns a costom message when a ZeroDivisionError occures.
 - Recognizes numbers adjacent to parentheses as multiplication.
+
+V5
+
+- Differentiates between negetive numbers and subtraction operations.
+- Implemented math imports
+- Improved formatting and added docstrings in functions to improve readability.
